@@ -1110,7 +1110,7 @@ main {
           width: 1200px;
           height: 680px;
           margin: 20px 0px 0px 10px;
-          filter: blur(30px);
+          /* filter: blur(30px); */
           transition: all .8s linear;
 
 
@@ -1124,7 +1124,7 @@ main {
             text-align: center;
             line-height: 1.6;
             scale: .6;
-            opacity: 10%;
+            opacity: 100%;
             transition: all .9s linear;
 
 
@@ -1153,7 +1153,7 @@ main {
                 margin: 10px 8px;
                 flex-shrink: 0;
                 box-shadow: 1px 3px 4px gray;
-                opacity: 0%;
+                opacity: 60%;
                 transition: all 2.2s linear;
                 /* border: 1px solid blue; */
 
@@ -1277,7 +1277,6 @@ main {
         }
 
       }
-
       #child2_items4:hover #items_element1 {
 
         filter: blur(0px);
@@ -1299,6 +1298,7 @@ main {
           }
         }
       }
+
 
       #child2_items4:hover #items_element2 {
 
