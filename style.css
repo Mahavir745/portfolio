@@ -2246,7 +2246,7 @@ main {
           display: block;
           width: 1000px;
           /* border: 1px solid; */
-          height: 1400px;
+          height: auto;
 
           #items_element1 {
             width: 600px;
