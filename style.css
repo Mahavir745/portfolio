@@ -280,7 +280,7 @@ main {
     }
 
     .menu_bar {
-      left: -300px;
+      left: 0px;
     }
 
     #child1::-webkit-scrollbar {
@@ -1462,6 +1462,17 @@ main {
                 color: var(--element-clr);
               }
 
+              #social_sites{
+                ul{
+                  display: flex;
+                }
+                ul li{
+                  text-decoration: underline;
+                  font-size: 12px;
+                  margin-right: 10px;
+                }
+              }
+
               h5 {
                 /* border: 1px solid red; */
                 width: 400px;
@@ -1643,10 +1654,43 @@ main {
   }
 }
 
+/* * footer */
+footer{
+  width: 100%;
+  height: auto;
+  .footerContainer{
+  width: 45px;
+  height: 45px;
+  background-color: white;
+  position: fixed;
+  z-index: 20000;
+  bottom: 40px;
+  right: 30px;
+  background-image: url("assest/assest_39.svg");
+  background-size: cover;
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 2px 2px 4px blue, -2px -2px 4px red;
 
+  }
+
+.footerAnimation{
+  animation: footerPart .2s linear 2 alternate;
+  transition: all .3s linear;
+}
+}
 
 
 /* ** Animation section: */
+
+@keyframes footerPart {
+  from{
+    transform: scale(1) skewX(-10deg);
+  }
+  to{
+    transform: scale(1.3) skewX(10deg);
+  }
+}
 
 /** appear2 */
 @keyframes appear2 {
